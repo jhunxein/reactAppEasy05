@@ -1,0 +1,75 @@
+.wrapper {
+	position: relative;
+	width: 100%;
+
+	@media only screen and (min-width: 820px) {
+		padding-right: 4em;
+	}
+
+	input {
+		width: 100%;
+		border: 1px solid $clr-primary-1;
+		border-radius: 24px;
+		padding: 1em 4.2em 1em 1.5em;
+		color: $clr-neutral-1;
+		font-size: 0.8em;
+		background-color: transparent;
+		font-weight: 400;
+
+		@media only screen and (min-width: 820px) {
+			font-size: 1em;
+
+			&::-webkit-input-placeholder {
+				font-size: 1em;
+
+				color: $clr-primary-1;
+			}
+
+			&::-moz-placeholder {
+				font-size: 1em;
+				color: $clr-primary-1;
+			}
+
+			&:-ms-input-placeholder {
+				font-size: 1em;
+				color: $clr-primary-1;
+			}
+
+			&::-ms-input-placeholder {
+				font-size: 1em;
+				color: $clr-primary-1;
+			}
+
+			&::placeholder {
+				font-size: 1em;
+				color: $clr-primary-1;
+			}
+		}
+
+		&::-webkit-input-placeholder {
+			font-size: 0.8em;
+
+			color: $clr-primary-1;
+		}
+
+		&::-moz-placeholder {
+			font-size: 0.8em;
+			color: $clr-primary-1;
+		}
+
+		&:-ms-input-placeholder {
+			font-size: 0.8em;
+			color: $clr-primary-1;
+		}
+
+		&::-ms-input-placeholder {
+			font-size: 0.8em;
+			color: $clr-primary-1;
+		}
+
+		&::placeholder {
+			font-size: 0.8em;
+			color: $clr-primary-1;
+		}
+	}
+}
