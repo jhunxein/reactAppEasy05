@@ -24,7 +24,6 @@ function Form() {
 	return (
 		<form onSubmit={handleSubmit} noValidate>
 			<div className="wrapper">
-				<h1 className="hide">Email form</h1>
 				<label htmlFor="emailAddress" className="hide">
 					Email Address
 				</label>

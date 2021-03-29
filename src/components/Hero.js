@@ -13,9 +13,8 @@ function Hero() {
 					your email below to stay up-to-date with announcements and our launch
 					deals.
 				</p>
+				<Form />
 			</div>
-
-			<Form />
 		</article>
 	);
 }
