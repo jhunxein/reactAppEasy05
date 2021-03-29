@@ -6,7 +6,7 @@ function Hero() {
 		<article className="hero">
 			<div className="text-hero-wrapper">
 				<h1>
-					<span>we're</span> <span>coming</span> <span>soon</span>
+					we're<span>coming</span> <span>soon</span>
 				</h1>
 				<p>
 					Hello fellow shoppers! We're currently building our new fashion store. Add
