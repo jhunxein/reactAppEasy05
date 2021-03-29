@@ -4,8 +4,8 @@ import hero from './../assets/images/hero-desktop.jpg';
 
 function HeroImgDesktop() {
 	return (
-		<section className="mobile-img-display">
-			<img src={hero} alt="..." className="hero" />
+		<section className="desktop-img-display">
+			<img src={hero} alt="..." className="hide" />
 		</section>
 	);
 }
