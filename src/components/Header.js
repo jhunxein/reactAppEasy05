@@ -5,9 +5,11 @@ import logo from './../assets/images/logo.svg';
 function Header() {
 	return (
 		<header>
-			<a href="/">
-				<img src={logo} alt="..." className="logo" />
-			</a>
+			<h1>
+				<a href="/">
+					<img src={logo} alt="..." className="logo" />
+				</a>
+			</h1>
 		</header>
 	);
 }
